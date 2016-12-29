@@ -15,5 +15,10 @@ namespace ContactManager.Controllers
         {
             return View();
         }
+
+        public IActionResult Shell()
+        {
+            return PartialView("~/Views/Home/_shell.cshtml");
+        }
     }
 }
